@@ -35,7 +35,7 @@ class Aboutmeresp extends StatelessWidget {
             Text(
               'Desoutter Guillaume',
               style: GoogleFonts.roboto(
-                textStyle: const TextStyle(fontWeight: FontWeight.bold),
+                textStyle: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
               ),
             ),
             const SizedBox(height: 20), // Espacement entre le texte et l'image
@@ -84,13 +84,27 @@ class Aboutmeresp extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20.0),
               child: Text(
-                'Hi, my name is Guillaume. I’m currently working at Capgemini.\nYou can find my resume in the skill tab.\nActually, my projects are: learning Kubernetes (CKA), Dart, Golang and backend tools.\nMy objective is to become a full-stack engineer.',
+                'Hi, my name is Guillaume. I’m currently working at Capgemini.\nYou can find my resume in the skill tab.\nActually, my projects are: learning Kubernetes (CKAD, CKS), Dart, Golang and backend tools.\nMy objective is to become a full-stack engineer.',
                 style: GoogleFonts.roboto(
                   textStyle: const TextStyle(fontSize: 15),
                 ),
                 textAlign: TextAlign.center,
               ),
             ),
+            const SizedBox(height: 20),
+            const Text(
+                'Certifications:',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                softWrap: true,
+              ),
+              ClipOval(
+                child: Image.asset(
+                  "assets/ckalogo.png",
+                  fit: BoxFit.cover,
+                  width: 100,
+                  height: 100,
+                ),
+              ),
           ],
         ),
       ),

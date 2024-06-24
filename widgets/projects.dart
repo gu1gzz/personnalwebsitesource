@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Flutter code sample for [Scaffold].
-
-
 class ProjectsPage extends StatelessWidget {
   const ProjectsPage({super.key});
 
@@ -21,7 +18,7 @@ class ProjectsPageContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text('Projects')
+        child: Text('Currently Working')
         ),
     );
   }

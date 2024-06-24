@@ -28,11 +28,11 @@ class ArticlesHome extends StatelessWidget {
               
             ),
             onPressed: () {
-              Navigator.of(context).push(_createRouteArticle1());
+              Navigator.of(context).push(_createRouteArticle2());
             },
             icon: Icon(Icons.article),
             label: Text(
-              '12.05.2024: My journey to better learn',
+              '19.06.2024: Road to CKA',
               style: GoogleFonts.roboto(
                 textStyle: const TextStyle(fontSize: 15),
               ),
@@ -49,11 +49,11 @@ class ArticlesHome extends StatelessWidget {
               
             ),
             onPressed: () {
-              Navigator.of(context).push(_createRouteArticle2());
+              Navigator.of(context).push(_createRouteArticle1());
             },
             icon: Icon(Icons.article),
             label: Text(
-              'Coming soon',
+              '12.05.2024: My journey to better learn',
               style: GoogleFonts.roboto(
                 textStyle: const TextStyle(fontSize: 15),
               ),
@@ -141,7 +141,7 @@ class Page3 extends StatelessWidget {
           return SingleChildScrollView(
             padding: EdgeInsets.all(16.0),
             child: Text(
-              "\n\n ...",
+              "\n\n Hello,\nI'm writing this article to update my journey to the CKA certification.\nI finished the kodekloud course from Mumshad and I'm currently passing all the mock exams.\nThe beginning was difficult but with practice and effort, i manage to get some good resultats to the differents tests.\nA lot of notions need to be understand: pod, architecture, service, storage. With my background, my favorite topic is troubleshooting, i can easily find the way to debug a pod, a service or a network.\n I also begin my homelab with a proxmox server hosted on a dell Tower with 32Gb RAM. My proxmox server host a Kubernetes cluster with 3 nodes (1 control-plane, 2 worker nodes), the services which are hosted are Gitea, Bookstack, Prometheus and Grafana (for the moment). But I plan to destroy everything and recreate from sratch on video to launch my youtube channel. I was also using Terraform for the deployments on my K8S cluster.\nThe next step for me is to get the CKA, I'm working on it and I hope get it in max 2 weeks.\n",
               softWrap: true,
               style: GoogleFonts.roboto(
                 textStyle: const TextStyle(letterSpacing: .5),

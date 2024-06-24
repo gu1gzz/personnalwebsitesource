@@ -35,7 +35,7 @@ class SkillsPageContent extends StatelessWidget {
               IconButton(
                 icon: const Icon(SimpleIcons.readdotcv, size: 50),
                 onPressed: () {
-                  launch('https://drive.google.com/file/d/1W2vCfeqwBc1fBmTSyf0o8-m9FuuzEiVR/view?usp=sharing', isNewTab: true);
+                  launch('https://drive.google.com/file/d/16RAqqr0gXbF__MyxgL15ou3y4OzRyX2c/view?usp=sharing', isNewTab: true);
                 },
               ),
               const Text(
